@@ -25,3 +25,6 @@
 [submodule "bundle/vim-surround"]
 	path = bundle/vim-surround
 	url = git@ssh.github.com:tpope/vim-surround.git
+[submodule "bundle/vim-vroom"]
+	path = bundle/vim-vroom
+	url = git@ssh.github.com:skalnik/vim-vroom.git
