@@ -23,6 +23,7 @@ map <silent> <m-n> :cn <cr>
 let g:rails_default_file='config/database.yml'
 
 syntax enable
+colorscheme monokai
 
 set cf  " Enable error files & error jumping.
 set clipboard+=unnamed  " Yanks go on clipboard instead.
