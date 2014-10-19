@@ -64,6 +64,7 @@ set mouse=a  " Mouse in all modesc
 set guioptions-=m  " Remove menu bar
 set guioptions-=T  " Remove toolbar
 set guioptions-=r  " Remove right-hand scroll bar
+set guioptions-=L  " Remove left-hand scroll bar
 
 " Highlight line characters starting from 81st one
 highlight ColorColumn ctermbg=magenta guibg=Magenta
