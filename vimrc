@@ -39,7 +39,8 @@ set timeoutlen=250  " Time to wait after ESC (default causes an annoying delay)
 set ts=2  " Tabs are 2 spaces
 set bs=2  " Backspace over everything in insert mode
 set shiftwidth=2  " Tabs under smart indent
-set nocp incsearch
+set nocp incsearch " Set incremental search
+set ignorecase " Ignore search case sensitivity
 set cinoptions=:0,p0,t0
 set cinwords=if,else,while,do,for,switch,case
 set formatoptions=tcqr
