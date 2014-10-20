@@ -47,7 +47,7 @@ set formatoptions=tcqr
 set cindent
 set autoindent
 set smarttab
-set expandtab
+set expandtab " Convert tabs to spaces
 
 " Visual
 set showmatch  " Show matching brackets.
