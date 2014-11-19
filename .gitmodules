@@ -43,3 +43,6 @@
 [submodule "bundle/emmet-vim"]
 	path = bundle/emmet-vim
 	url = git@ssh.github.com:mattn/emmet-vim.git
+[submodule "bundle/vim-gitgutter"]
+	path = bundle/vim-gitgutter
+	url = git@ssh.github.com:airblade/vim-gitgutter.git
