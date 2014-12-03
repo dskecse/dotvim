@@ -90,6 +90,21 @@ set guioptions-=T  " Remove toolbar
 set guioptions-=r  " Remove right-hand scroll bar
 set guioptions-=L  " Remove left-hand scroll bar
 
+" Highlight trailing spaces
+match ErrorMsg '\s\+$'
+
+" Remove trailing spaces
+function! TrimWhiteSpaces()
+  %s/\s\+$//e
+endfunction
+
+nnoremap <silent> <Leader>rts :call TrimWhiteSpaces()
+
+au FileWritePre   * :call TrimWhiteSpaces()
+au FileAppendPre  * :call TrimWhiteSpaces()
+au FilterWritePre * :call TrimWhiteSpaces()
+au BufWritePre    * :call TrimWhiteSpaces()
+
 " Highlight line characters starting from 81st one
 highlight ColorColumn ctermbg=magenta guibg=Magenta
 call matchadd('ColorColumn', '\%>80v.\+', 100)
