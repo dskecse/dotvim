@@ -1,6 +1,6 @@
 ## Setup
 
-    git clone git@ssh.github.com:dskecse/dotvim.git ~/.vim
+    git clone https://github.com/dskecse/dotvim.git ~/.vim
     cd $_
     rake setup
 
