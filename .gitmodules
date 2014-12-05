@@ -40,6 +40,7 @@
 [submodule "bundle/YouCompleteMe"]
 	path = bundle/YouCompleteMe
 	url = git@ssh.github.com:Valloric/YouCompleteMe.git
+	ignore = dirty
 [submodule "bundle/emmet-vim"]
 	path = bundle/emmet-vim
 	url = git@ssh.github.com:mattn/emmet-vim.git
