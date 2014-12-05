@@ -11,3 +11,8 @@ task :pull do
   system('git pull')
   system('git submodule update --init --recursive')
 end
+
+desc 'Update plugins'
+task :upgrade do
+  system('git submodule update --remote --merge')
+end
