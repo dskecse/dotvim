@@ -53,3 +53,6 @@
 [submodule "bundle/vim-snippets"]
 	path = bundle/vim-snippets
 	url = https://github.com/honza/vim-snippets
+[submodule "bundle/rust"]
+	path = bundle/rust
+	url = https://github.com/wting/rust.vim
