@@ -1,6 +1,12 @@
 " No vi compatibility
 set nocompatible
 
+" Disable arrow keys
+noremap <Up> <NOP>
+noremap <Down> <NOP>
+noremap <Left> <NOP>
+noremap <Right> <NOP>
+
 " Automatically detect file types
 filetype on
 filetype indent on
