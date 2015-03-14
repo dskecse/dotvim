@@ -30,6 +30,9 @@ set noswapfile
 " Add recently accessed projects menu (project plugin)
 set viminfo^=\!
 
+" Set <Leader> key
+let mapleader=","
+
 " Minibuffer Explorer Settings
 let g:miniBufExplMapWindowNavVim = 1
 let g:miniBufExplMapWindowNavArrows = 1
