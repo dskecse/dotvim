@@ -33,6 +33,9 @@ set viminfo^=\!
 " Set <Leader> key
 let mapleader=","
 
+" Make test output colorful
+let g:vroom_use_colors = 1
+
 " Minibuffer Explorer Settings
 let g:miniBufExplMapWindowNavVim = 1
 let g:miniBufExplMapWindowNavArrows = 1
