@@ -87,8 +87,8 @@ set expandtab " Convert tabs to spaces
 set showmatch  " Show matching brackets.
 set mat=5  " Bracket blinking.
 set list  " Show all the tabs and line endings
-" Show $ at end of line and trailing space as ~
-set lcs=tab:\ \ ,eol:$,trail:~,extends:>,precedes:<
+" Show trailing space as ~
+set lcs=tab:\ \ ,trail:~,extends:>,precedes:<
 set novisualbell  " No blinking .
 set noerrorbells  " No noise.
 set laststatus=2  " Always show status line.
