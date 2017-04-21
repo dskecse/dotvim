@@ -11,3 +11,7 @@ filetype plugin indent on  " switch on file type detection (w/o syntax highlight
 runtime macros/matchit.vim
 
 set number
+
+set expandtab     " convert tabs to spaces
+set shiftwidth=2  " indentation size in spaces
+set softtabstop=2 " tab size
