@@ -12,6 +12,7 @@ runtime macros/matchit.vim
 
 set number
 set rnu
+set laststatus=2  " always display a status line
 
 set expandtab     " convert tabs to spaces
 set shiftwidth=2  " indentation size in spaces
